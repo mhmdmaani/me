@@ -6,7 +6,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/semi-circle-slider' element={<CircleSlider />} />
+        <Route path='/' element={<CircleSlider />} />
         <Route path='/full-slider' element={<FullCircleSlider />} />
       </Routes>
     </BrowserRouter>
